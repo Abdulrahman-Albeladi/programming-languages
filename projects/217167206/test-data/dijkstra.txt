@@ -1,0 +1,33 @@
+# Selected Quotations by Edsger W. Dijkstra
+
+> Testing can only prove the presence of bugs, not their absence.
+>
+> — Edsger W. Dijkstra
+
+> Conceptually FORTRAN remained on familiar grounds in the sense that its purpose was to aid the mechanization of computational processes we used to do with pen and paper (and mechanical desk calculators if you could afford them). This was in strong contrast to LISP whose purpose was to enable the execution of processes that no one would dream of performing with pen and paper.
+>
+> — Edsger W. Dijkstra, keynote address for the ACM Symposium on Applied Computing, San Antonio, Texas, March 1, 1999
+
+> If in physics there's something you don't understand, you can always hide behind the uncharted depths of nature. You can always blame God. You didn't make it so complex yourself. But if your program doesn't work, there is no one to hide behind. You cannot hide behind an obstinate nature. If it doesn't work, you've messed up.
+>
+> — Edsger W. Dijkstra
+
+> Being abstract is something profoundly different from being vague... The purpose of abstraction is not to be vague, but to create a new semantic level in which one can be absolutely precise.
+>
+> — Edsger W. Dijkstra
+
+> Simplicity is prerequisite for reliability.
+>
+> — Edsger W. Dijkstra
+
+> Elegance is not a dispensable luxury but a quality that decides between success and failure.
+>
+> — Edsger W. Dijkstra
+
+> Object-oriented programming is an exceptionally bad idea which could only have originated in California.
+>
+> — Edsger W. Dijkstra
+
+> I don't know how many of you have ever met Dijkstra, but you probably know that arrogance in computer science is measured in nano-Dijkstras.
+>
+> — Alan Kay

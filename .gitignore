@@ -1,0 +1,27 @@
+.env
+*.pem
+*.key
+credentials.json
+service-account.json
+local.properties
+**/data/raw/**
+**/.ipynb_checkpoints/**
+__pycache__/
+
+# Generated, local, and secret material
+.env.*
+!.env.example
+*.p12
+*.pfx
+service-account*.json
+google-services.json
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+*.class
+build/
+dist/
+.DS_Store
+node_modules/
