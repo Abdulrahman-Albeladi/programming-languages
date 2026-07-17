@@ -36,7 +36,8 @@ jobs:
 
       - name: Build OCaml projects
         run: |
-          opam install dune -y
+          # OCaml projects depend on OUnit (`oUnit`) and QCheck.
+          opam install dune ounit qcheck -y
           for project in projects/*; do
             if [ -f "$project/dune-project" ]; then
               echo "Building $project"
