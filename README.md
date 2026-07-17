@@ -47,3 +47,41 @@ If these projects are extended with research or institutional data, keep source 
 These projects were recovered as publish-eligible material from a source collection identified as `330`. The preserved provenance available in this repository is the per-project `metadata.yml` file and the original project directory identifier. Original assignment text, grading instructions, hidden tests, private paths, credentials, and other non-portable scaffolding are not represented in this index.
 
 See [PROJECT_INDEX.md](PROJECT_INDEX.md) for per-project notes.
+
+<!-- portfolio-public-release-license:start -->
+
+## License and public-release status
+
+This repository is published under an all-rights-reserved
+portfolio license. Viewing the repository does not grant permission to reuse its code,
+documentation, datasets, or assets. Third-party and collaborator materials retain
+their original rights.
+
+Before changing visibility from private to public, the owner must complete the
+ownership checklist in `LICENSE_REVIEW.md`.
+
+<!-- portfolio-public-release-license:end -->
+
+<!-- programming-languages-course-tests:start -->
+
+## Academic-integrity cleanup
+
+Course test directories with uncertain ownership were removed from the public portfolio copy and preserved in a private quarantine. See `REMOVED_COURSE_TESTS.md`.
+
+<!-- programming-languages-course-tests:end -->
+
+<!-- release-license:start -->
+
+## License and public-release status
+
+This repository uses an all-rights-reserved portfolio license. Review `LICENSE_REVIEW.md` and `THIRD_PARTY_NOTICES.md` before changing visibility to public.
+
+<!-- release-license:end -->
+
+<!-- course-test-cleanup:start -->
+
+## Academic-integrity cleanup
+
+Test directories with uncertain ownership were removed and preserved in a private quarantine. See `REMOVED_COURSE_TESTS.md`.
+
+<!-- course-test-cleanup:end -->
