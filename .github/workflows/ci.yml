@@ -1,0 +1,56 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install portable validator
+        run: python -m pip install --upgrade nbformat PyYAML
+
+      - name: Structural and security validation
+        run: python tools/portfolio_validate.py
+
+      - name: Compile Python sources
+        run: python -m compileall -q projects
+
+      - name: Set up OCaml
+        uses: ocaml/setup-ocaml@v3
+        with:
+          ocaml-compiler: "5.2"
+
+      - name: Build OCaml projects
+        run: |
+          opam install dune -y
+          for project in projects/*; do
+            if [ -f "$project/dune-project" ]; then
+              echo "Building $project"
+              (cd "$project" && opam exec -- dune build)
+            fi
+          done
+
+      - name: Set up Rust
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+
+      - name: Test Rust projects
+        run: |
+          for manifest in projects/*/Cargo.toml; do
+            [ -e "$manifest" ] || continue
+            echo "Testing $manifest"
+            cargo test --manifest-path "$manifest" --all-targets
+          done

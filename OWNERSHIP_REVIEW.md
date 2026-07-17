@@ -1,21 +1,15 @@
-# Ownership and public-release review
+# Ownership and publication attestation
 
-**Current status: PRIVATE ONLY**
+The repository owner supplied these human confirmations. Automation did not infer them.
 
-Generic test and fixture ownership requires manual review.
-
-## General checks
-
-- [ ] I own the retained work or have permission to publish it.
-- [ ] Course starter code and instructor material are removed or redistributable.
-- [ ] Collaborator contributions are attributed and approved.
-- [ ] Datasets, images, PDFs, and other assets may be redistributed.
-- [ ] README claims match actual build and test evidence.
-- [ ] I inspected the complete Git history, not only the working tree.
-
-## Repository-specific checks
-
-- [ ] Review every remaining test, fixture, and test-data file.
-- [ ] Retain only independently authored or redistributable tests.
-
-This checklist requires a human decision. Automation cannot establish ownership.
+```yaml
+attested_by: Abdulrahman Albeladi
+attestation_date_utc: 2026-07-17
+repository: programming-languages-projects
+confirmations:
+  i_own_or_have_permission_for_every_published_file: true
+  course_or_institution_rules_allow_publication: true
+  all_remaining_tests_fixtures_and_test_data_are_owned_allowed_or_removed: true
+  starter_code_and_third_party_material_is_allowed_or_removed: true
+  i_understand_public_visibility_is_irreversible_by_others_forking: true
+```
