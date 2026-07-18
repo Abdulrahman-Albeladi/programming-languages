@@ -36,7 +36,9 @@ jobs:
 
       - name: Build OCaml projects
         run: |
-          opam install dune -y
+          # Install common OCaml libraries required by the portfolio's dune projects.
+          # (e.g., unit/property testing dependencies referenced in dune files)
+          opam install dune ounit2 qcheck -y
           for project in projects/*; do
             if [ -f "$project/dune-project" ]; then
               echo "Building $project"
