@@ -41,6 +41,5 @@ Projects are independent language-learning artifacts rather than one cross-langu
 
 ## License and attribution
 
-Third-party and collaborator attribution is documented in [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
 Use and redistribution are governed by the repository's [`LICENSE`](LICENSE).
