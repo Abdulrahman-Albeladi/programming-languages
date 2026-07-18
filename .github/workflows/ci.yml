@@ -38,7 +38,9 @@ jobs:
         run: |
           # Install common OCaml libraries required by the portfolio's dune projects.
           # (e.g., unit/property testing dependencies referenced in dune files)
-          opam install dune ounit2 qcheck -y
+          # Some projects reference the findlib library name "oUnit", provided by the
+          # opam package "ounit".
+          opam install dune ounit ounit2 qcheck -y
           for project in projects/*; do
             if [ -f "$project/dune-project" ]; then
               echo "Building $project"
