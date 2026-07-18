@@ -1,5 +1,12 @@
 # Programming Languages
 
+<!-- employer-visual:start -->
+<p align="center">
+  <img src="docs/portfolio-overview.png" alt="Programming Languages project overview" width="100%">
+</p>
+<!-- employer-visual:end -->
+
+
 Python, OCaml, and Rust projects exploring functional programming, automata, parsing, interpretation, and text processing.
 
 **Technologies:** Python · OCaml · Dune · Rust · Cargo
