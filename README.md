@@ -1,12 +1,4 @@
-# Programming Languages Projects
-
-<!-- coursework-portfolio-notice:start -->
-> [!NOTE]
-> **Archived college-work portfolio snapshot.** This repository documents coursework, reconstructed assignments, experiments, and skills developed during university. It is provided for portfolio and educational reference, not as maintained production software. Some projects may require historical dependencies, datasets, SDKs, or manual setup and may not build unchanged on current toolchains.
->
-> **Known limitation:** The multi-language automated build is not fully passing across every archived project; this is a learning portfolio, not maintained software.
-<!-- coursework-portfolio-notice:end -->
-
+# Programming Languages
 Coursework implementations across the languages present in this repository.
 
 ## Projects
