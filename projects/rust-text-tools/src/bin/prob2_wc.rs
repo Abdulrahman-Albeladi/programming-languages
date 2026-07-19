@@ -1,4 +1,4 @@
-use project7::prob1_basics::count_words;
+use rust_text_tools::prob1_basics::count_words;
 
 use std::env;
 use std::fs::File;

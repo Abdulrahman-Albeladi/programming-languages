@@ -1,5 +1,5 @@
 [package]
-name = "project7"
+name = "rust-text-tools"
 version = "0.1.0"
 edition = "2021"
 

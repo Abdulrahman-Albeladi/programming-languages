@@ -1,6 +1,6 @@
-extern crate project7;
+extern crate rust_text_tools;
 
-use project7::prob1_basics::*;
+use rust_text_tools::prob1_basics::*;
 
 #[test]
 fn gauss_handles_positive_and_negative_inputs() {
